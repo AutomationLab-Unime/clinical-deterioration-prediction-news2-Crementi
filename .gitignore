@@ -1,0 +1,20 @@
+# Dati PhysioNet ad accesso credenziato: non vanno MAI caricati (Data Use Agreement)
+mimic-iv-3.1/
+eicu-collaborative-research-database-2.0/
+hirid-a-high-time-resolution-icu-dataset-1.1.1/
+mimic-iv-demo-csv/
+mimic-iv-fhir-demo/
+*.zip
+*.csv.gz
+*.parquet
+
+# Dataset derivati dalla Fase 1 (contengono dati a livello di paziente)
+data_mimic/*.csv
+data_eicu/*.csv
+data_hirid/*.csv
+
+# Ambiente e file temporanei
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+logs/*.log

@@ -1,0 +1,1 @@
+Cartella creata dal notebook. Il notebook di questo database lavora in memoria e non salva CSV intermedi.
